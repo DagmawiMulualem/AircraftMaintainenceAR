@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CD537BBE2DE2E3C100D9C26E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD537BA02DE2E3BF00D9C26E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD537BA72DE2E3BF00D9C26E;
+			remoteInfo = AircraftMaintainenceAR;
+		};
+		CD537BC82DE2E3C100D9C26E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD537BA02DE2E3BF00D9C26E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD537BA72DE2E3BF00D9C26E;
+			remoteInfo = AircraftMaintainenceAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD537BA82DE2E3BF00D9C26E /* AircraftMaintainenceAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AircraftMaintainenceAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD537BBD2DE2E3C100D9C26E /* AircraftMaintainenceARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AircraftMaintainenceARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD537BC72DE2E3C100D9C26E /* AircraftMaintainenceARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AircraftMaintainenceARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CD537BAA2DE2E3BF00D9C26E /* AircraftMaintainenceAR */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AircraftMaintainenceAR;
+			sourceTree = "<group>";
+		};
+		CD537BC02DE2E3C100D9C26E /* AircraftMaintainenceARTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AircraftMaintainenceARTests;
+			sourceTree = "<group>";
+		};
+		CD537BCA2DE2E3C100D9C26E /* AircraftMaintainenceARUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AircraftMaintainenceARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD537BA52DE2E3BF00D9C26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD537BBA2DE2E3C100D9C26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD537BC42DE2E3C100D9C26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD537B9F2DE2E3BF00D9C26E = {
+			isa = PBXGroup;
+			children = (
+				CD537BAA2DE2E3BF00D9C26E /* AircraftMaintainenceAR */,
+				CD537BC02DE2E3C100D9C26E /* AircraftMaintainenceARTests */,
+				CD537BCA2DE2E3C100D9C26E /* AircraftMaintainenceARUITests */,
+				CD537BA92DE2E3BF00D9C26E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD537BA92DE2E3BF00D9C26E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD537BA82DE2E3BF00D9C26E /* AircraftMaintainenceAR.app */,
+				CD537BBD2DE2E3C100D9C26E /* AircraftMaintainenceARTests.xctest */,
+				CD537BC72DE2E3C100D9C26E /* AircraftMaintainenceARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD537BA72DE2E3BF00D9C26E /* AircraftMaintainenceAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD537BD12DE2E3C100D9C26E /* Build configuration list for PBXNativeTarget "AircraftMaintainenceAR" */;
+			buildPhases = (
+				CD537BA42DE2E3BF00D9C26E /* Sources */,
+				CD537BA52DE2E3BF00D9C26E /* Frameworks */,
+				CD537BA62DE2E3BF00D9C26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CD537BAA2DE2E3BF00D9C26E /* AircraftMaintainenceAR */,
+			);
+			name = AircraftMaintainenceAR;
+			packageProductDependencies = (
+			);
+			productName = AircraftMaintainenceAR;
+			productReference = CD537BA82DE2E3BF00D9C26E /* AircraftMaintainenceAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD537BBC2DE2E3C100D9C26E /* AircraftMaintainenceARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD537BD42DE2E3C100D9C26E /* Build configuration list for PBXNativeTarget "AircraftMaintainenceARTests" */;
+			buildPhases = (
+				CD537BB92DE2E3C100D9C26E /* Sources */,
+				CD537BBA2DE2E3C100D9C26E /* Frameworks */,
+				CD537BBB2DE2E3C100D9C26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD537BBF2DE2E3C100D9C26E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD537BC02DE2E3C100D9C26E /* AircraftMaintainenceARTests */,
+			);
+			name = AircraftMaintainenceARTests;
+			packageProductDependencies = (
+			);
+			productName = AircraftMaintainenceARTests;
+			productReference = CD537BBD2DE2E3C100D9C26E /* AircraftMaintainenceARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD537BC62DE2E3C100D9C26E /* AircraftMaintainenceARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD537BD72DE2E3C100D9C26E /* Build configuration list for PBXNativeTarget "AircraftMaintainenceARUITests" */;
+			buildPhases = (
+				CD537BC32DE2E3C100D9C26E /* Sources */,
+				CD537BC42DE2E3C100D9C26E /* Frameworks */,
+				CD537BC52DE2E3C100D9C26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD537BC92DE2E3C100D9C26E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD537BCA2DE2E3C100D9C26E /* AircraftMaintainenceARUITests */,
+			);
+			name = AircraftMaintainenceARUITests;
+			packageProductDependencies = (
+			);
+			productName = AircraftMaintainenceARUITests;
+			productReference = CD537BC72DE2E3C100D9C26E /* AircraftMaintainenceARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD537BA02DE2E3BF00D9C26E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CD537BA72DE2E3BF00D9C26E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CD537BBC2DE2E3C100D9C26E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CD537BA72DE2E3BF00D9C26E;
+					};
+					CD537BC62DE2E3C100D9C26E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CD537BA72DE2E3BF00D9C26E;
+					};
+				};
+			};
+			buildConfigurationList = CD537BA32DE2E3BF00D9C26E /* Build configuration list for PBXProject "AircraftMaintainenceAR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD537B9F2DE2E3BF00D9C26E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD537BA92DE2E3BF00D9C26E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD537BA72DE2E3BF00D9C26E /* AircraftMaintainenceAR */,
+				CD537BBC2DE2E3C100D9C26E /* AircraftMaintainenceARTests */,
+				CD537BC62DE2E3C100D9C26E /* AircraftMaintainenceARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD537BA62DE2E3BF00D9C26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD537BBB2DE2E3C100D9C26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD537BC52DE2E3C100D9C26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD537BA42DE2E3BF00D9C26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD537BB92DE2E3C100D9C26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD537BC32DE2E3C100D9C26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD537BBF2DE2E3C100D9C26E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD537BA72DE2E3BF00D9C26E /* AircraftMaintainenceAR */;
+			targetProxy = CD537BBE2DE2E3C100D9C26E /* PBXContainerItemProxy */;
+		};
+		CD537BC92DE2E3C100D9C26E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD537BA72DE2E3BF00D9C26E /* AircraftMaintainenceAR */;
+			targetProxy = CD537BC82DE2E3C100D9C26E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD537BCF2DE2E3C100D9C26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD537BD02DE2E3C100D9C26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD537BD22DE2E3C100D9C26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DagmawiMulualem.AircraftMaintainenceAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD537BD32DE2E3C100D9C26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DagmawiMulualem.AircraftMaintainenceAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD537BD52DE2E3C100D9C26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DagmawiMulualem.AircraftMaintainenceARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AircraftMaintainenceAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AircraftMaintainenceAR";
+			};
+			name = Debug;
+		};
+		CD537BD62DE2E3C100D9C26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DagmawiMulualem.AircraftMaintainenceARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AircraftMaintainenceAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AircraftMaintainenceAR";
+			};
+			name = Release;
+		};
+		CD537BD82DE2E3C100D9C26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DagmawiMulualem.AircraftMaintainenceARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AircraftMaintainenceAR;
+			};
+			name = Debug;
+		};
+		CD537BD92DE2E3C100D9C26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DagmawiMulualem.AircraftMaintainenceARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AircraftMaintainenceAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD537BA32DE2E3BF00D9C26E /* Build configuration list for PBXProject "AircraftMaintainenceAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD537BCF2DE2E3C100D9C26E /* Debug */,
+				CD537BD02DE2E3C100D9C26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD537BD12DE2E3C100D9C26E /* Build configuration list for PBXNativeTarget "AircraftMaintainenceAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD537BD22DE2E3C100D9C26E /* Debug */,
+				CD537BD32DE2E3C100D9C26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD537BD42DE2E3C100D9C26E /* Build configuration list for PBXNativeTarget "AircraftMaintainenceARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD537BD52DE2E3C100D9C26E /* Debug */,
+				CD537BD62DE2E3C100D9C26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD537BD72DE2E3C100D9C26E /* Build configuration list for PBXNativeTarget "AircraftMaintainenceARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD537BD82DE2E3C100D9C26E /* Debug */,
+				CD537BD92DE2E3C100D9C26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD537BA02DE2E3BF00D9C26E /* Project object */;
+}
